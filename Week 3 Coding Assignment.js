@@ -35,7 +35,7 @@ function average(ages) {            //#1c. creating new function called average 
     });
     console.log(lengths)                        //console logging the variable 'lengths' which was defined as the map method / function
 
-  function average(lengths) {                   //creating a new function 'average' with 'lengths' as the parameter
+  function average(lengths) {                   //#2a. creating a new function 'average' with 'lengths' as the parameter
     let sum = 0;                                //defining variable 'sum' to equal (start) at 0
     let count = lengths.length;                 //defining variable 'count' to equal the 'length' of the lengths variable
     for (i=0; i < count; i++) {                 //a 'for loop' to start the index at 0, iterating until the 'i' is lower than the count
@@ -46,8 +46,8 @@ function average(ages) {            //#1c. creating new function called average 
   }
   console.log(average(lengths));                //outputting the average function using lengths as the argument
 
-  for (let name of names){                      //a for loop - for every 'name' (element within names), output the element + 'concatenate'
-    console.log(name.concat());
+  for (let name of names){                      //#2b. for loop - for every 'name' (element within names), output the element + 'concatenate'
+    console.log(name.concat());                 //to manually include 'spaces', normally would add (+ " ") but didn't need to
   }
 
   //#3. variable[-1]
